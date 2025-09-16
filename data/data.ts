@@ -2,7 +2,7 @@
 export const destinationData = [
   {
     id: 1,
-    image: "/images/germany.jpg",
+    image: "./images/germany.jpg",
     country: "Germany",
     travelers: "150,000",
   },
