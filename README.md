@@ -1,3 +1,18 @@
+# Travel Website -Frontend (React + Next.js 15 + TypeScript + Tailwind CSS)
+
+This project is a **simple travel website ** built with **React**, **Next.js 15**, **TypeScript**, and **Tailwind CSS**.  
+It was created as a **personal project** to improve frontend development skills. The website features a **responsive design** that looks great on any device.
+
+---
+
+## Features
+
+- Modern frontend built with **React** and **Next.js 15**  
+- Fully **responsive design** for mobile, tablet, and desktop  
+- Styled with **Tailwind CSS** for a clean and modern UI  
+- Written in **TypeScript** for type safety and better code quality  
+- Component-based architecture for easy scalability 
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
