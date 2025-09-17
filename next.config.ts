@@ -1,15 +1,15 @@
 import type { NextConfig } from "next";
 
-const repoName = "Travel_website-frontend";
 
+const isProd = process.env.NODE_ENV === 'production';
 
-const nextConfig: NextConfig = {
+const nextConfig = {
+  basePath: isProd ? '/Travel_website-frontend' : '',
   output: "export",              
-  basePath: `/${repoName}`,      
-  assetPrefix: `/${repoName}/`,  
+  distDir:'dist',
   images: {
     unoptimized: true,          
   },
 };
 
-export default nextConfig;
+module.exports=nextConfig;
