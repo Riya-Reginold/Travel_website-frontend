@@ -1,15 +1,14 @@
-import type { NextConfig } from "next";
-
-
+/** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-  basePath: isProd ? '/Travel_website-frontend' : '',
+  basePath: isProd ? '/Travel_website-frontend' : '',    
+  assetPrefix: isProd ? '/Travel_website-frontend/' : '', 
   output: "export",              
-  distDir:'dist',
+  distDir: 'dist',
   images: {
-    unoptimized: true,          
+    unoptimized: true,
   },
 };
 
-module.exports=nextConfig;
+module.exports = nextConfig;
